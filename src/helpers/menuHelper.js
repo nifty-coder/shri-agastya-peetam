@@ -18,13 +18,10 @@ let navItems = [
     {
         link: "/about-deergha-sathra-yagam/",
         name: 'Deergha Sathra Yagam'
-<<<<<<< HEAD
-=======
     },
     {
         link: "/donate/",
         name: 'Donate'
->>>>>>> aa270b6 (Upgraded from Cra to Vite)
     }
 ];
 
