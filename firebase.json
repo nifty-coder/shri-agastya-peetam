@@ -1,0 +1,20 @@
+{
+  "hosting": {
+<<<<<<< HEAD
+    "public": "build",
+=======
+    "public": "dist",
+>>>>>>> aa270b6 (Upgraded from Cra to Vite)
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

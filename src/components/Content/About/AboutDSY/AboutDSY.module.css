@@ -1,0 +1,10 @@
+.Summary {
+    color: royalblue;
+}
+
+.Filler {
+    display: block;
+    background-color: #ccc;
+    height: 90vh;
+    text-align: center;
+}

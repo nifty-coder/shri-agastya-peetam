@@ -1,0 +1,131 @@
+.GridArticle {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 1.5vw;
+    padding: 1.5vw; 
+} 
+
+.AboutGMP {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-break: keep-all;
+    box-shadow: 0 4px 12px 0 #C1CBB3, 0 6px 20px 0 #D2D8CA;
+    padding: 1vw;
+}
+
+.AboutGMP:nth-child(1) {
+    background-color: rgb(248, 194, 156);
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+}
+
+.AboutGMP:nth-child(2) {
+   background-color: cornsilk;
+   grid-column: 4 / span 2;
+   grid-row: 1 / span 2;
+}
+
+.AboutGMP:nth-child(3) {
+  /*  background-color: rgb(255, 213, 213); - use for DSY */
+  background-color: bisque;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+}
+
+.AboutGMP:nth-child(4) {
+    background-color: rgb(245, 225, 176);
+    grid-column: 1 / span 5;
+    grid-row: 3 / span 2;
+}
+
+.AboutGMP ol {
+    text-align: left;
+}
+
+.AboutGMP h4 {
+    color: darkred;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.AboutGMP:hover {
+    background-color: white;
+}
+
+.GridText {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.TextAround {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 0;
+}
+
+.WideText {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+}
+
+.AboutGMP:nth-child(1) .Image:nth-child(1) {
+    max-width: 20vw;
+    margin-right: 1vw;
+    max-height: 63vh;
+}
+
+.AboutGMP:nth-child(2) .Image:nth-child(1) {
+    max-height: 42vh;
+    max-width: 20vw;
+    margin-right: 1vw;
+}
+
+.AboutGMP:nth-child(4) .Image:nth-child(1) {
+    max-width: 22vw;
+    max-height: 50vh;
+}
+
+@media (max-width: 499px) {
+    .GridText {
+        grid-template-columns: auto;
+    }
+
+    .TextAround {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0;
+    }
+
+    .WideText {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .AboutGMP h4 {
+        font-size: 2.5vw;
+    }
+
+    .AboutGMP .Image {
+        margin-bottom: 1vh;
+    }
+
+    .AboutGMP:nth-child(1) .Image:nth-child(1) {
+        max-width: 55vw;
+        height: 42vh;
+    }
+    
+    .AboutGMP:nth-child(2) .Image:nth-child(1) {
+        max-height: 25vh;
+        max-width: 35vw;
+    }
+    
+    .AboutGMP:nth-child(4) .Image:nth-child(1) {
+        max-width: 50vw;
+        max-height: 25vh;
+        margin: auto;
+        margin-bottom: 1vh;
+    }
+}

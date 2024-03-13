@@ -1,0 +1,11 @@
+{
+  "projects": {
+<<<<<<< HEAD
+    "default": "shri-agastya-peetam-india",
+    "UAT": "shri-agastya-peetam-india",
+    "production": "shri-agastya-peetam-india"
+=======
+    "default": "agastya-peetam-d8d82"
+>>>>>>> aa270b6 (Upgraded from Cra to Vite)
+  }
+}

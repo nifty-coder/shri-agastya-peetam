@@ -1,0 +1,1 @@
+import{j as e}from"./index-CXcUMHoO.js";const t="_PageNotFound_1fjk0_1",s="_Title_1fjk0_11",o={PageNotFound:t,Title:s},a=()=>e.jsxs("div",{className:o.PageNotFound,children:[e.jsx("h3",{className:o.Title,children:"404 Page Not Found!"}),e.jsx("h4",{children:"The links above in the menu bar might help you!"})]});export{a as default};

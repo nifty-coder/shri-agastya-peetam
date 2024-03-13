@@ -1,0 +1,37 @@
+.DesktopSubGrid {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .DesktopContactBar {
+        font-size: 0.9vw;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        /* grid-template-rows: auto auto auto; */
+        background-color: rgb(82, 1, 1);
+        color: white;      
+        height: 7vw;
+    } 
+    
+    .AlignVertical {
+        margin: auto;
+    }
+
+    .Peetam {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    
+   .DesktopSubGrid {
+       display: grid;
+       grid-template-columns: 4fr 1fr;
+       grid-gap: 1vw;
+       margin-top: 1.1vw;
+   }
+
+   .EmailTel {
+       display: grid;
+       grid-template-columns: auto;
+       grid-gap: 0;
+   }
+}

@@ -1,0 +1,78 @@
+.About {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr 1.2fr 1fr;
+    grid-template-rows: auto auto;
+    background-color: rgb(252, 247, 247);
+    opacity: 0.99;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-break: keep-all;
+    padding: 1vw;
+}
+
+.Sloka {
+    margin-left: 0.2vw;
+    font-size: 1vw;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 72, 0);
+    font-weight:bolder;
+}
+
+.Sloka:nth-child(1) {
+    font-size: 0.8vw;
+}
+
+.Sloka i {
+    cursor: pointer;
+}
+  
+.AboutText {
+    margin-left: 1vw;
+    font-size: 1vw;
+    grid-column: 2 / span 3;
+    grid-row: 2;
+}
+
+.AboutText b {
+    color: darkred;
+}
+
+.GayathriMaa, .Swamiji {
+    max-width: 21vw;
+    max-height: 80vh; 
+    margin-left: 1vw;
+    grid-row: 1 / span 2;
+}
+
+.Swamiji {
+    grid-column: 5;
+}
+
+.Agastya {    
+ justify-content: center;
+ text-align: center;
+}
+
+.Agastya img {
+    width: 10vw;
+    max-height: 18vh;
+}
+
+@media only screen and (max-width: 499px) {
+    .GayathriMaa, .Swamiji {
+        height: 20vh;
+    }   
+
+    .Sloka {
+        font-size: 1.2vw;
+    }
+
+    .Sloka i {
+        font-size: 2.5vw;
+    }
+
+    .AboutText {
+        font-size: 2.3vw;
+    }
+}

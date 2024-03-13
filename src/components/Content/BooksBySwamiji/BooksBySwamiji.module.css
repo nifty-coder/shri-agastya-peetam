@@ -1,0 +1,52 @@
+.Book {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: start;
+}
+
+.BookCover { 
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    max-width: 5vw;
+}
+
+.BooksBySwamiji {
+    background-color: rgb(247, 187, 77);
+    opacity: 0.99;
+    text-align: left;
+}
+
+.BooksBySwamiji h4 {
+    color: darkred;
+    font-weight: bold;
+}
+
+.BooksBySwamiji a {
+    color: black;
+    font-weight: lighter;
+}
+
+.BooksBySwamiji p {
+    color: darkblue;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+@media (max-width: 499px) {
+    .Book {
+        grid-template-columns: auto;
+    }
+
+    .BookCover {
+        max-width: 22vw;
+    }
+
+    .BooksBySwamiji a {
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+}
